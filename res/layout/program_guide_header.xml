@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/program_guide_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/epg_header_height"
+    android:elevation="@dimen/program_guide_header_elevation">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/epg_header_guide_paddingStart"
+        android:paddingTop="@dimen/epg_header_guide_paddingTop"
+        android:text="Guide"
+        style="@style/epg_header_guide_text"/>
+
+    <TextView
+        android:id="@+id/program_guide_header_currenttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="@dimen/epg_header_guide_paddingTop"
+        android:paddingEnd="@dimen/epg_header_guide_paddingEnd"
+        android:text="7:30p"
+        style="@style/epg_header_currenttime"/>
+
+</FrameLayout>

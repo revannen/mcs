@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/program_guide_side_panel_hide"
+    android:layout_width="@dimen/program_guide_side_panel_hide_width"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/epg_header_height"
+    android:visibility="gone" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/epg_sidepanel_item_paddingStart"
+        android:src="@drawable/filters_default"/>
+</FrameLayout>
